@@ -17,10 +17,10 @@
 	https://www.codeproject.com/articles/27494/using-account-management-api-iolkaccountmanger-to
 	
 	To compile you will need:
-	+MS Office 2010 MAPI Headers
 	+MAPIStublibrary (old https://archive.codeplex.com/?p=mapistublibrary new https://github.com/stephenegriffin/MAPIStubLibrary)
+	+tinyxml2 UNICODE (https://github.com/MrdUkk/tinyxml2-custom)
 	
-   (c) dUkk 2011-2014
+   (c) Wholesome Software 2011-2019
 */
 
 #include "stdafx.h"
@@ -52,9 +52,9 @@ int _tmain(int argc, TCHAR* argv[], TCHAR* envp[])
 	}
 
 #ifdef _WIN64
-	_tprintf(_T("MS Office Outlook delivery changer 64bit v1.6 by dUkk (c) 2014\r\n"));
+	_tprintf(_T("MS Office Outlook delivery changer 64bit v1.7 (c) 2011-2019 Wholesome Software\r\n"));
 #else
-	_tprintf(_T("MS Office Outlook delivery changer v1.6 by dUkk (c) 2011-2014\r\n"));
+	_tprintf(_T("MS Office Outlook delivery changer v1.7 (c) 2011-2019 Wholesome Software\r\n"));
 #endif
 	
 	if(argc < 2) 
@@ -545,7 +545,7 @@ int _tmain(int argc, TCHAR* argv[], TCHAR* envp[])
 void printusage()
 {
 	_tprintf(_T("\r\n"));
-	_tprintf(_T("tested on MS Outlook 2003/2007/2010/2013 versions\r\n"));
+	_tprintf(_T("tested on MS Outlook 2003/2007/2010/2013/2016 versions\r\n"));
 	_tprintf(_T("usage: outlookdeliverychanger.exe <function> <parameter>\r\n"));
 	_tprintf(_T("       where <function> is one of the:\r\n"));
 	_tprintf(_T("       /list            - print on console all mail profiles,accounts,stores for current user\r\n"));
@@ -572,7 +572,7 @@ bool isOutlookPresent(void)
 	HKEY hkMAPI2 = NULL;
 	WCHAR mainkeyname[1024];
 	WCHAR rgwchMSILCID[32];
-	const WCHAR *Versions[] = {_T("15.0"),_T("14.0"),_T("13.0"), _T("12.0"), _T("11.0"), _T("10.0"), _T("9.0"), _T("8.0")};
+	const WCHAR *Versions[] = { _T("16.0"),_T("15.0"),_T("14.0"),_T("13.0"), _T("12.0"), _T("11.0"), _T("10.0"), _T("9.0"), _T("8.0")};
 
 	for(int a=0;a< 5;a++) 
 	{

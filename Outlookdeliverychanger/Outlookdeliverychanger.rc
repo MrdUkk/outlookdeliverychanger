@@ -13,13 +13,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// Russian resources
+// Russian (Russia) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
-#ifdef _WIN32
 LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 #pragma code_page(1251)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -27,8 +25,8 @@ LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,6,0,0
- PRODUCTVERSION 1,6,0,0
+ FILEVERSION 1,7,0,0
+ PRODUCTVERSION 1,7,0,0
  FILEFLAGSMASK 0x17L
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -44,12 +42,12 @@ BEGIN
         BLOCK "041904b0"
         BEGIN
             VALUE "FileDescription", "MS Office Outlook delivery changer"
-            VALUE "FileVersion", "1, 6, 0, 0"
-            VALUE "InternalName", "Outlookd"
-            VALUE "LegalCopyright", "Copyright (C) 2011-2014 dUkk"
+            VALUE "FileVersion", "1.7.0.0"
+            VALUE "InternalName", "outlookdeliverychanger"
+            VALUE "LegalCopyright", "Copyright (C) 2011-2019 Wholesome Software"
             VALUE "OriginalFilename", "Outlookdeliverychanger.exe"
             VALUE "ProductName", "MS Office Outlook delivery changer"
-            VALUE "ProductVersion", "1, 6, 0, 0"
+            VALUE "ProductVersion", "1.7.0.0"
         END
     END
     BLOCK "VarFileInfo"
@@ -58,18 +56,16 @@ BEGIN
     END
 END
 
-#endif    // Russian resources
+#endif    // Russian (Russia) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// English (U.S.) resources
+// English (United States) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 #pragma code_page(1252)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -102,12 +98,12 @@ END
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_APP_TITLE           "Outlookdeliverychanger"
 END
 
-#endif    // English (U.S.) resources
+#endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

@@ -1,0 +1,19 @@
+﻿  StubUtils.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  Automatically linking with winmm.lib
+c:\projects\outlookdeliverychanger\mapistublibrary\stubutils.cpp(282): error C2664: 'void *InterlockedExchangePointer(void **,void *) throw()': cannot convert argument 1 from 'volatile PVOID *' to 'void **'
+  c:\projects\outlookdeliverychanger\mapistublibrary\stubutils.cpp(282): note: Conversion loses qualifiers
+c:\projects\outlookdeliverychanger\mapistublibrary\stubutils.cpp(295): error C2664: 'void *InterlockedExchangePointer(void **,void *) throw()': cannot convert argument 1 from 'volatile PVOID *' to 'void **'
+  c:\projects\outlookdeliverychanger\mapistublibrary\stubutils.cpp(295): note: Conversion loses qualifiers
+c:\projects\outlookdeliverychanger\mapistublibrary\stubutils.cpp(294): error C2789: 'hinstPrev': an object of const-qualified type must be initialized
+  c:\projects\outlookdeliverychanger\mapistublibrary\stubutils.cpp(294): note: see declaration of 'hinstPrev'
+c:\projects\outlookdeliverychanger\mapistublibrary\stubutils.cpp(296): error C3536: 'hinstPrev': cannot be used before it is initialized
+c:\projects\outlookdeliverychanger\mapistublibrary\stubutils.cpp(296): error C2446: '!=': no conversion from 'int' to 'nullptr'
+  c:\projects\outlookdeliverychanger\mapistublibrary\stubutils.cpp(296): note: only a null pointer constant can be converted to nullptr_t
+c:\projects\outlookdeliverychanger\mapistublibrary\stubutils.cpp(299): error C2440: 'static_cast': cannot convert from 'int' to 'PVOID'
+  c:\projects\outlookdeliverychanger\mapistublibrary\stubutils.cpp(299): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+c:\projects\outlookdeliverychanger\mapistublibrary\stubutils.cpp(299): error C2660: 'InterlockedExchangePointer': function does not take 1 arguments
+  MapiStubLibrary.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  Automatically linking with winmm.lib
+  Generating Code...

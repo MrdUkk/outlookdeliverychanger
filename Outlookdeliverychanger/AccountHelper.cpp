@@ -1,10 +1,10 @@
 /*
-   This is my derivative work based on article:
-   "Using Account Management API (IOlkAccountManger) to List Outlook Email Accounts"
-   by Ashutosh Bhawasinka,  28 Aug 2008
-   published first on www.codeproject.com
-   
-   (c) dUkk 2011-2014
+	This is derivative work based on article:
+	"Using Account Management API (IOlkAccountManger) to List Outlook Email Accounts"
+	by Ashutosh Bhawasinka,  28 Aug 2008
+	published first on www.codeproject.com
+
+	(c) Wholesome Software 2011-2019
 */
 
 #include "stdafx.h"
